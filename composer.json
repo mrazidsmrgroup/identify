@@ -1,0 +1,30 @@
+{
+    "name": "dsmr/identify",
+    "description": "Identify",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Dsmr\\Identify\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Firdaus Ishaddin",
+            "email": "firdausishaddin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "laravel/framework": "^9.0 || ^8.0 || ^7.0",
+        "sinergi/browser-detector": "^6.1"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dsmr\\Identify\\IdentifyServiceProvider"
+            ]
+        }
+    }
+}
